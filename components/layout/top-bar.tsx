@@ -16,14 +16,14 @@ const leftInfo = [
   {
     icon: "fa-regular fa-clock",
     title: "Time",
-    value: "Sun - Fri (08AM - 10PM)",
+    value: "Mon - Fri (08AM - 10PM)",
   },
 ];
 
 const socialLinks = [
-  { icon: "fa-brands fa-facebook-f", href: "#" },
+  { icon: "fa-brands fa-facebook-f", href: "https://www.facebook.com/" },
   { icon: "fa-brands fa-instagram", href: "https://www.instagram.com/_dmconstruction_" },
-  { icon: "fa-brands fa-linkedin-in", href: "#" },
+  { icon: "fa-brands fa-linkedin-in", href: "https://www.linkedin.com/" },
 ];
 
 export default function TopBar() {

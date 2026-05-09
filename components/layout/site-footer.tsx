@@ -60,20 +60,20 @@ export default function SiteFooter() {
           <div className="w-full">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/Logo.png"
+                src="/images/white-logo.png"
                 alt="DM Construction"
                 width={240}
                 height={68}
-                className="h-14 w-auto max-w-full object-contain object-left"
+                className="h-14 w-50 max-w-full object-contain object-left"
               />
             </Link>
-            <p className="mt-5 text-[17px] leading-8 text-white/90">
+            <p className="mt-5 text-base leading-8 text-white/90">
               We are many variations of passages available but the majority have
               suffered alteration some form by injected humour looking layout
               words believable.
             </p>
 
-            <h3 className="mt-8 text-[16px] font-bold">Subscribe Our Newsletter</h3>
+            {/* <h3 className="mt-8 text-[16px] font-bold">Subscribe Our Newsletter</h3>
             <form
               className="mt-4 w-full"
               onSubmit={handleSubmit(handleSubscribe)}
@@ -108,7 +108,7 @@ export default function SiteFooter() {
               {errors.email ? (
                 <p className="mt-2 pl-4 text-sm text-red-300">{errors.email.message}</p>
               ) : null}
-            </form>
+            </form> */}
           </div>
 
           <div className="w-full">
