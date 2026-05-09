@@ -29,8 +29,8 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: {
-    default: "dmconstruction",
-    template: "%s | dmconstruction",
+    default: "DM Construction",
+    template: "%s | DM Construction",
   },
   description:
     "dmconstruction provides modern construction, architecture, and interior design services for residential and commercial projects.",
